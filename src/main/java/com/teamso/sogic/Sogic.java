@@ -2,6 +2,7 @@ package com.teamso.sogic;
 
 import com.mojang.logging.LogUtils;
 import com.teamso.sogic.Block.ModBlocks;
+import com.teamso.sogic.creativemodtab.ModCreativeModeTab;
 import com.teamso.sogic.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -50,6 +51,8 @@ public class Sogic {
 
 
         ModBlocks.register(modEventBus);
+
+        ModCreativeModeTab.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

@@ -16,6 +16,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> SONEDA = ITEMS.register("soneda", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> So = ITEMS.register("son", () -> new Item(new Item.Properties()));
+
     public static final RegistryObject <Item> x = ITEMS.register("x", () -> new Prueba(new Item.Properties()));
 
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM =
@@ -29,6 +31,7 @@ public class ModItems {
 
 public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
+
 
 
 
