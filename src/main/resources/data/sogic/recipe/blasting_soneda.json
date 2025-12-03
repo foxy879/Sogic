@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 200,
+  "group": "soneda",
+  "ingredient": {
+    "item": "sogic:soneda"
+  },
+  "result":{
+    "id": "minecraft:diamond"
+  }
+}
