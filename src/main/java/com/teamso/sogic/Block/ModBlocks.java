@@ -18,7 +18,7 @@ public class ModBlocks {
 
     private static final DeferredRegister <Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Sogic.MOD_ID);
 
-    public static final RegistryObject <Block> aaso = registerBlock("blocktest", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final RegistryObject <Block> aaso = registerBlock("blocktest", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
 
     private static <T extends Block> RegistryObject <T> registerBlock(String name, Supplier<T> block) {
