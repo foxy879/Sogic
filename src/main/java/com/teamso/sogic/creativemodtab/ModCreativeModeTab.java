@@ -23,6 +23,7 @@ public class ModCreativeModeTab {
             .icon(()-> new ItemStack(ModItems.SONEDA.get()))
             .displayItems((parameters,output)-> {
                 output.accept(ModItems.SONEDA.get());
+                output.accept(ModItems.CONVERTER.get());
             })
 
 

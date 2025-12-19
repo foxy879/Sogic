@@ -2,6 +2,7 @@ package com.teamso.sogic.item;
 
 import com.teamso.sogic.Block.ModBlocks;
 import com.teamso.sogic.Sogic;
+import com.teamso.sogic.item.customitems.Converter;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,8 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM =
             ITEMS.register("ruby_block", () ->
                     new BlockItem(ModBlocks.RUBY_BLOCK.get(), new Item.Properties()));
+    public static final RegistryObject <Item> CONVERTER = ITEMS.register("converter", () ->
+            new Converter(new Item.Properties().durability(50)));
 
 
 
