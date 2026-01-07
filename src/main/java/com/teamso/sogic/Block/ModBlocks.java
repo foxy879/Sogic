@@ -1,4 +1,5 @@
 package com.teamso.sogic.Block;
+import com.teamso.sogic.Block.custom.SoundBlock;
 import com.teamso.sogic.Sogic;
 import com.teamso.sogic.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -19,6 +20,8 @@ public class ModBlocks {
     private static final DeferredRegister <Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Sogic.MOD_ID);
 
     public static final RegistryObject <Block> aaso = registerBlock("blocktest", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject <Block> SOUND_BLOCK = registerBlock("sound_block",  () -> new SoundBlock(BlockBehaviour.Properties.of()));
 
 
     private static <T extends Block> RegistryObject <T> registerBlock(String name, Supplier<T> block) {
