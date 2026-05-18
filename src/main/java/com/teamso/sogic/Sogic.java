@@ -1,7 +1,7 @@
 package com.teamso.sogic;
 
 import com.mojang.logging.LogUtils;
-import com.teamso.sogic.Block.ModBlocks;
+import com.teamso.sogic.blocks.ModBlocks;
 import com.teamso.sogic.creativemodtab.ModCreativeModeTab;
 import com.teamso.sogic.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -60,7 +60,7 @@ public class Sogic {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Add the example blocks item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.SONEDA);

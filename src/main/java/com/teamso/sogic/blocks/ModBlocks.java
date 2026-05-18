@@ -1,5 +1,5 @@
-package com.teamso.sogic.Block;
-import com.teamso.sogic.Block.custom.SoundBlock;
+package com.teamso.sogic.blocks;
+import com.teamso.sogic.blocks.custom.SoundBlock;
 import com.teamso.sogic.Sogic;
 import com.teamso.sogic.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -17,7 +17,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
-    private static final DeferredRegister <Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Sogic.MOD_ID);
+    public static final DeferredRegister <Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Sogic.MOD_ID);
 
     public static final RegistryObject <Block> aaso = registerBlock("blocktest", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 

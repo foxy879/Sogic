@@ -3,5 +3,8 @@
   "item.sogic.x" : "Ardilla culiada",
   "creativetab.sogic.soneda_items" : "putamrd la odio",
   "block.sogic.blocktest" : "Bloque de prueba",
-  "": ""
+  "block.sogic.sound_block": "Bloque de sonido",
+  "tooltip.sogic.soundblock.tooltip": "this block can issue a §6sound§r",
+  "tooltip.sogic.converter.converter.shift_down": "This item can convert blocks into others ",
+  "tooltip.sogic.converter.converter": "press shift for more information"
 }
