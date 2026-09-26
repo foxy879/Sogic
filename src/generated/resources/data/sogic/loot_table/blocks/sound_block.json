@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sogic:sound_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "sogic:blocks/sound_block"
+}

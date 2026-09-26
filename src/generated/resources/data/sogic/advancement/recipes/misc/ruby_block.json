@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soneda": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sogic:soneda"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sogic:ruby_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soneda"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sogic:ruby_block"
+    ]
+  }
+}

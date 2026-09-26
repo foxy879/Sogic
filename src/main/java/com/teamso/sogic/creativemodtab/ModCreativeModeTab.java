@@ -26,6 +26,16 @@ public class ModCreativeModeTab {
                 output.accept(ModItems.ELECTROBERRIES.get());
                 output.accept(ModItems.CHERRY.get());
                 output.accept(ModBlocks.SOUND_BLOCK.get());
+                output.accept(ModBlocks.TRAP_DOOR_TEST.get());
+                output.accept(ModBlocks.DOOR_TEST.get());
+                output.accept(ModBlocks.BUTTON_TEST.get());
+                output.accept(ModBlocks.FENCEGATE_TEST.get());
+                output.accept(ModBlocks.PRESSURE_PLATE_RUBY.get());
+                output.accept(ModBlocks.STAIR_TEST.get());
+                output.accept(ModBlocks.WALL_TEST.get());
+                output.accept(ModBlocks.FENCE_TEST.get());
+                output.accept(ModBlocks.SLAB_TEST.get());
+
             })
 
 

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sogic:block/blocktest"
+    }
+  }
+}
