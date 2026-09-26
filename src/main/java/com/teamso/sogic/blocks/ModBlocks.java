@@ -20,6 +20,9 @@ public class ModBlocks {
 
     public static final DeferredRegister <Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Sogic.MOD_ID);
 
+    public static final RegistryObject<Block> RUBY_BLOCK =
+            BLOCKS.register("ruby_block", () -> new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject <Block> aaso = registerBlock("blocktest", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     public static final RegistryObject <Block> SOUND_BLOCK = registerBlock("sound_block",  () -> new SoundBlock(BlockBehaviour.Properties.of()));
@@ -63,9 +66,7 @@ public class ModBlocks {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
 
     }
-    public static final RegistryObject<Block> RUBY_BLOCK =
-            BLOCKS.register("ruby_block", () ->
-                    new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
+
 
 
     public static void register(IEventBus eventBus) {

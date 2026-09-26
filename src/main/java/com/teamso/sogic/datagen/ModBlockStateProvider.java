@@ -17,6 +17,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.SOUND_BLOCK);
         blockWithItem(ModBlocks.aaso);
+        blockWithItem(ModBlocks.RUBY_BLOCK);
 
 
     }
