@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "elpepe",
+  "ingredients": [
+    {
+      "item": "sogic:soneda"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sogic:button_test"
+  }
+}

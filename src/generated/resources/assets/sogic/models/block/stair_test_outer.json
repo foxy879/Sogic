@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "sogic:block/sound_block",
+    "side": "sogic:block/sound_block",
+    "top": "sogic:block/sound_block"
+  }
+}

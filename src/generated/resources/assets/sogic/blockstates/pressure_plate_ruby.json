@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "sogic:block/pressure_plate_ruby"
+    },
+    "powered=true": {
+      "model": "sogic:block/pressure_plate_ruby_down"
+    }
+  }
+}

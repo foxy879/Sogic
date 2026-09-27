@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sogic:block/slab_test"
+    },
+    "type=double": {
+      "model": "sogic:block/sound_block"
+    },
+    "type=top": {
+      "model": "sogic:block/slab_test_top"
+    }
+  }
+}

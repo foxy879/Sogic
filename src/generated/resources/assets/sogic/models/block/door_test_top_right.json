@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "sogic:block/alexandrite_door_bottom",
+    "top": "sogic:block/alexandrite_door_top"
+  }
+}

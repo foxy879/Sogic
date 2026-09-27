@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 25.0,
+  "group": "elpepe",
+  "ingredient": {
+    "item": "sogic:ruby_block"
+  },
+  "result": {
+    "id": "sogic:soneda"
+  }
+}
