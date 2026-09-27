@@ -23,7 +23,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.aaso.get())
                 .add(ModBlocks.RUBY_BLOCK.get());
 
-        tag(BlockTags.NEEDS_IRON_TOOL);
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.FENCEGATE_TEST.get());
+
         
 
 
@@ -32,6 +34,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.aaso.get())
                 .add(ModBlocks.RUBY_BLOCK.get());
 
+        tag(BlockTags.FENCES).add(ModBlocks.FENCE_TEST.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.FENCEGATE_TEST.get());
+        tag(BlockTags.WALLS).add(ModBlocks.WALL_TEST.get());
+
 
     }
+
 }

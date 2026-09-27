@@ -1,4 +1,13 @@
-// 1.21.1	2026-05-02T00:35:04.0790214	Loot Tables
+// 1.21.1	2026-09-26T20:38:12.3163133	Loot Tables
 cb0a2fe86dfd2c8b299b164d5430abf89b47cccd data/sogic/loot_table/blocks/blocktest.json
+c27fa29babd84686f9ce289ad9cfa173c34b9488 data/sogic/loot_table/blocks/button_test.json
+4fd63d4824bfbe582a6417ac9990cc1a8e98ee94 data/sogic/loot_table/blocks/door_test.json
+a2eb4a6b3bdffec1d29417041c88c92a34c589da data/sogic/loot_table/blocks/fence_gate_test.json
+37464394ead7efa3a596b89c2e613a83b18cc008 data/sogic/loot_table/blocks/fence_test.json
+72a3b0831aa202d740b3229a2fef7ca349fa6a73 data/sogic/loot_table/blocks/pressure_plate_ruby.json
 cbf29134636caed48d7df93bdc1a1aa41635a0a6 data/sogic/loot_table/blocks/ruby_block.json
+f5a53e9989352fc64242f4bea7acf1467edd8168 data/sogic/loot_table/blocks/slab_test.json
 87b3a3b36c2b973a2a96e5587c7c0a59db975fba data/sogic/loot_table/blocks/sound_block.json
+3f0de050d2854d5e8d6f745d081c05a2f0d2f4a8 data/sogic/loot_table/blocks/stair_test.json
+de0be98a43c9f6c95ff9f82d8eb32d1e4edc6566 data/sogic/loot_table/blocks/trap_door_test.json
+3918c5cbb43e24a3ea48d4c586f80954fa594f75 data/sogic/loot_table/blocks/wall_test.json

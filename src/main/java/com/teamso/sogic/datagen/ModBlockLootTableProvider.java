@@ -49,6 +49,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.PRESSURE_PLATE_RUBY.get());
         dropSelf(ModBlocks.WALL_TEST.get());
 
+        this.add(ModBlocks.DOOR_TEST.get(),
+                block -> createDoorTable(ModBlocks.DOOR_TEST.get()));
+
 
 
         this.add(ModBlocks.RUBY_BLOCK.get(), block -> createOreDrop(ModBlocks.RUBY_BLOCK.get(), ModItems.SONEDA.get()) );
